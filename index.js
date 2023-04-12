@@ -1,16 +1,11 @@
-
-function saturdayFun(totallyAwesome="roller-skate") {
-    return `This Saturday, I want to ${totallyAwesome}!`
+function saturdayFun(rollerRink='roller-skate'){
+    return `This Saturday, I want to ${rollerRink}!`
     }
-    saturdayFun()
-
-let mondayWork = function(workingForTheWeekend="go to the office"){
-    return `This Monday, I will ${workingForTheWeekend}.` 
-       }
-       mondayWork()
-
-function wrapAdjective (fancy="*") {
-    return function(stringOne="special"){
-    return `You are ${fancy}${stringOne}${fancy}!`
-        }
-      }
+function mondayWork(garfield='go to the office'){
+    return `This Monday, I will ${garfield}.`
+}
+function wrapAdjective(visualFlair="*"){
+    return function(plops="special"){
+        return `You are ${visualFlair}${plops}${visualFlair}!`
+    }
+}
